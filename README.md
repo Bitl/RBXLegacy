@@ -3,7 +3,7 @@
 ========= CREATOR'S NOTE =========
 ----------------------------------
 
-NOTE: This is only the source code, Click the link below to download the latest version of the client.
+NOTE: This is only the source code. Click the link below to download the latest version of the client.
 
 4-5 days didn't go to waste, didn't it?
 
