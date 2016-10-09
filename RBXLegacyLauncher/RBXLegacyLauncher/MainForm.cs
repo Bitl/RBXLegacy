@@ -30,23 +30,23 @@ namespace RBXLegacyLauncher
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		void tabPage2_Enter(object sender, EventArgs e)
+		void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
 		{
-			string mapdir = GlobalVars.ClientDir + @"\\content\\Maps";
-			DirectoryInfo dinfo = new DirectoryInfo(mapdir);
-			FileInfo[] Files = dinfo.GetFiles("*.rbxl");
-			foreach( FileInfo file in Files )
-			{
-   				this.listBox1.Items.Add(file.Name);
-			}
-			this.listBox1.SelectedIndex = 0;
-		}
-		void tabPage2_Leave(object sender, EventArgs e)
-		{
-			if (this.tabControl1.SelectedTab != tabPage2)
-			{
-				this.listBox1.Items.Clear();
-			}
+     		if (tabControl1.SelectedTab == tabControl1.TabPages["tabPage2"])//your specific tabname
+     		{
+        		string mapdir = GlobalVars.ClientDir + @"\\content\\Maps";
+				DirectoryInfo dinfo = new DirectoryInfo(mapdir);
+				FileInfo[] Files = dinfo.GetFiles("*.rbxl");
+				foreach( FileInfo file in Files )
+				{
+   					this.listBox1.Items.Add(file.Name);
+				}
+				this.listBox1.SelectedIndex = 0;
+     		}
+     		else
+     		{
+     			this.listBox1.Items.Clear();
+     		}
 		}
 		void Button1Click(object sender, EventArgs e)
 		{
@@ -84,6 +84,9 @@ namespace RBXLegacyLauncher
 			GlobalVars.IP = "localhost";
     		GlobalVars.Map = "Baseplate.rbxl";
     		GlobalVars.CloseOnLaunch = true;
+    		string[] lines = File.ReadAllLines("version.txt"); //File is in System.IO
+			string version = lines[0];
+    		label11.Text = version;
 		}
 		
 		void TextBox1TextChanged(object sender, EventArgs e)

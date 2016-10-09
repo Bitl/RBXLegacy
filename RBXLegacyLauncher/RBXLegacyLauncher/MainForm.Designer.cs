@@ -50,6 +50,8 @@ namespace RBXLegacyLauncher
 			this.label1 = new System.Windows.Forms.Label();
 			this.listBox1 = new System.Windows.Forms.ListBox();
 			this.tabPage4 = new System.Windows.Forms.TabPage();
+			this.label11 = new System.Windows.Forms.Label();
+			this.label10 = new System.Windows.Forms.Label();
 			this.label9 = new System.Windows.Forms.Label();
 			this.label8 = new System.Windows.Forms.Label();
 			this.label7 = new System.Windows.Forms.Label();
@@ -90,6 +92,7 @@ namespace RBXLegacyLauncher
 			this.tabControl1.SelectedIndex = 0;
 			this.tabControl1.Size = new System.Drawing.Size(398, 252);
 			this.tabControl1.TabIndex = 1;
+			this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
 			// 
 			// tabPage1
 			// 
@@ -167,8 +170,6 @@ namespace RBXLegacyLauncher
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "START SERVER";
 			this.tabPage2.UseVisualStyleBackColor = true;
-			this.tabPage2.Enter += new System.EventHandler(this.tabPage2_Enter);
-			this.tabPage2.Leave += new System.EventHandler(this.tabPage2_Leave);
 			// 
 			// label2
 			// 
@@ -219,6 +220,8 @@ namespace RBXLegacyLauncher
 			// 
 			// tabPage4
 			// 
+			this.tabPage4.Controls.Add(this.label11);
+			this.tabPage4.Controls.Add(this.label10);
 			this.tabPage4.Controls.Add(this.label9);
 			this.tabPage4.Controls.Add(this.label8);
 			this.tabPage4.Controls.Add(this.label7);
@@ -232,6 +235,24 @@ namespace RBXLegacyLauncher
 			this.tabPage4.Text = "ABOUT";
 			this.tabPage4.UseVisualStyleBackColor = true;
 			// 
+			// label11
+			// 
+			this.label11.Location = new System.Drawing.Point(206, 73);
+			this.label11.Name = "label11";
+			this.label11.Size = new System.Drawing.Size(80, 23);
+			this.label11.TabIndex = 6;
+			this.label11.Text = "label11";
+			this.label11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+			// 
+			// label10
+			// 
+			this.label10.Location = new System.Drawing.Point(206, 57);
+			this.label10.Name = "label10";
+			this.label10.Size = new System.Drawing.Size(80, 16);
+			this.label10.TabIndex = 5;
+			this.label10.Text = "Client Version:";
+			this.label10.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+			// 
 			// label9
 			// 
 			this.label9.Location = new System.Drawing.Point(6, 92);
@@ -243,16 +264,16 @@ namespace RBXLegacyLauncher
 			// 
 			// label8
 			// 
-			this.label8.Location = new System.Drawing.Point(6, 73);
+			this.label8.Location = new System.Drawing.Point(88, 73);
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(378, 26);
+			this.label8.Size = new System.Drawing.Size(100, 19);
 			this.label8.TabIndex = 3;
 			this.label8.Text = "label8";
 			this.label8.TextAlign = System.Drawing.ContentAlignment.TopCenter;
 			// 
 			// label7
 			// 
-			this.label7.Location = new System.Drawing.Point(143, 57);
+			this.label7.Location = new System.Drawing.Point(88, 57);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(100, 16);
 			this.label7.TabIndex = 2;
@@ -327,6 +348,8 @@ namespace RBXLegacyLauncher
 			this.tabPage4.ResumeLayout(false);
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Label label10;
+		private System.Windows.Forms.Label label11;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.CheckBox checkBox1;
 		private System.Windows.Forms.Label label2;

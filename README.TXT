@@ -9,10 +9,14 @@ RBXLegacy is a version of a late-2008 ROBLOX client, built to allow the user to 
 ========= CHANGELOG =========
 -----------------------------
 
+v1.1.2:
+- Fixed the skybox on Sword Fights on the Heights, Rocket Arena, and Yorick's Resting Place.
+- Fixed a bug where the Launcher would duplicate names of maps in the map list.
+- The Launcher will now list the current version of RBXLegacy.
 v1.1.1:
-- Fixed both Sword Fights on the Heights and Happy Home in Robloxia.
+- Fixed Sword Fights on the Heights, Happy Home in Robloxia, and Crossroads.
 - Fixed a bug where the entire map list would disappear if you selected the options on top on the launcher.
-- Removed Winter Rocket Arena as it is a non-ROBLOX-made level. 
+- Removed Winter Rocket Arena as it is a non-ROBLOX-made level.
 v1.1:
 - Added a new launcher.
 - Added a CHANGLOG section to the README.
