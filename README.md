@@ -9,7 +9,7 @@ NOTE: This is only the source code. Click the link below to download the latest 
 
 Made this little thing to mess around with Lua and RBXPri stuff. Instructions and legal info are in the README.txt in the client itself.
 
-Download the actual client at https://github.com/Bitl/RBXLegacy/releases
+Download the actual client at https://github.com/Bitl/RBXLegacy/releases or http://gamejolt.com/games/rbxlegacy/195327
 
 Have fun!
 

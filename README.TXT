@@ -1,4 +1,4 @@
-﻿-------------------------------
+-------------------------------
 ========= INFORMATION =========
 -------------------------------
 
@@ -9,10 +9,13 @@ RBXLegacy is a version of a late-2008 ROBLOX client, built to allow the user to 
 ========= CHANGELOG =========
 -----------------------------
 
+<<<<<<< HEAD
 v1.1.1:
 - Fixed Sword Fights on the Heights, Happy Home in Robloxia, and Crossroads.
 - Fixed a bug where the entire map list would disappear if you selected the options on top on the launcher.
 - Removed Winter Rocket Arena as it is a non-ROBLOX-made level.
+=======
+>>>>>>> origin/master
 v1.1:
 - Added a new launcher.
 - Added a CHANGLOG section to the README.
@@ -40,6 +43,97 @@ Make sure the server you are trying to join is in your region of the world (I.E 
 ========= LAUNCHER INSTRUCTIONS =========
 
 NOTE: If you get an error trying to open the launcher, install this: https://www.microsoft.com/en-us/download/details.aspx?id=17718
+<<<<<<< HEAD
+
+=== HOSTING ===
+
+How to host a server:
+
+1. Port forward 53640 as TCP/UCP. If you do not know how to port forward, there are plenty of tutorials on the internet for this.
+
+2. Open the RBXLegacy Launcher.
+
+3. Select the "START SERVER" tab.
+
+4. Select the name of the map you want to play, then press the "START SERVER" button. The ROBLOX Studio window should load with the map you chose.
+
+5. To share your server with friends, send them your public/external IP address (Google ip).
+
+
+
+How to host a LAN server:
+
+1. First, you must know your LAN IPv4 address from ipconfig. If you don't know your LAN IPv4 address, there are plenty of tutorials on the internet for this.
+
+2. Open the RBXLegacy Launcher.
+
+3. Select the "START SERVER" tab.
+
+4. Select the name of the map you want to play, then press the "START SERVER" button. The ROBLOX Studio window should load with the map you chose.
+5. To share your server with friends, tell them your LAN IPv4 address.
+
+
+
+How to host a Hamachi server:
+
+1. Make sure you have Hamachi installed and you made a network already. If you do not know how, there are plenty of tutorials on the internet for this.
+2. Open the RBXLegacy Launcher.
+
+3. Select the "START SERVER" tab.
+
+4. Select the name of the map you want to play, then press the "START SERVER" button. The ROBLOX Studio window should load with the map you chose.
+
+5. To share your server with friends, send them your Hamachi IPv4 address located above your computer's name on the Hamachi window. 
+You must also share the network ID and password to your Hamachi network.
+
+
+
+=== CONNECTING ===
+
+How to connect via IP (LAN/Online):
+
+1. Open the RBXLegacy Launcher.
+
+2. Select the "JOIN SERVER" tab.
+
+3. Type in the IP address that is shared to you into the "IP Address" box, and then press the "JOIN SERVER" button.
+
+4. You should be able to join the server.
+
+
+
+How to connect via Hamachi:
+
+
+1. Open the RBXLegacy Launcher.
+
+2. Select the "JOIN SERVER" tab.
+
+3. Type in the IPv4 Address that is in the title of the Hamachi network you are in into the "IP Address" box, and then press press the "JOIN SERVER" button.
+
+4. You should be able to join the server.
+
+
+=== PLAY SOLO ===
+
+
+
+How to Play Solo:
+
+1. Open the RBXLegacy Launcher.
+
+3. Select the "START SERVER" tab.
+
+4. Select the name of the map you want to play, then press the "START SERVER" button. The ROBLOX Studio window should load with the map you chose.
+
+4. Then, launch the RBXLegacy Launcher again and then select the "JOIN SERVER" tab.
+5. On the "JOIN SERVER" screen, press the "JOIN SERVER" button. ROBLOX will then load.
+
+========= BATCH INSTRUCTIONS =========
+
+WARNING: DO NOT PUT A SPACE IN THE FOLDER THAT THIS IS IN OR MOVE THIS TO A FOLDER WITH A SPACE. IT WILL SCREW UP THE GAME LOADING STUFF.
+=======
+>>>>>>> origin/master
 
 === HOSTING ===
 
