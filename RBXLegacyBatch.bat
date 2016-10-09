@@ -37,7 +37,7 @@ ECHO.
 SET /P JoinServer="Server IP (Default: %DefaultIP%): "
 IF NOT DEFINED JoinServer SET JoinServer=%DefaultIP%
 ECHO Starting Roblox...
-%RobloxPath% -script "dofile('%GameLoadPath%\\CSMPFunctions.lua'); _G.CSConnect(%UserID%,'%JoinServer%',%RobloxPort%,'%PlayerName%');"
+%RobloxPath% -script "dofile('%GameLoadPath%\\content\\Scripts\\CSMPFunctions.lua'); _G.CSConnect(%UserID%,'%JoinServer%',%RobloxPort%,'%PlayerName%');"
 GOTO::EOF
 
 :ServerSetup
@@ -49,10 +49,10 @@ ECHO Be sure you port forward %RobloxPort% if you want to start a public server.
 ECHO.
 ECHO Select a map:
 ECHO.
-for %%a in ("%CD%\client\Maps\*") do @echo %%~na
+for %%a in ("%CD%\client\content\Maps\*") do @echo %%~na
 ECHO.
 SET /P ServerPlaceId="Type the name of the map you would like to load (Default: %DefaultMap%): "
 IF NOT DEFINED ServerPlaceId SET ServerPlaceId=%DefaultMap%
 ECHO Starting Roblox...
-%RobloxPath% -script "dofile('%GameLoadPath%\\CSMPFunctions.lua'); _G.CSServer(%RobloxPort%); game:Load('%GameLoadPath%\\Maps\\%ServerPlaceId%.rbxl');"
+%RobloxPath% -script "dofile('%GameLoadPath%\\content\\Scripts\\CSMPFunctions.lua'); _G.CSServer(%RobloxPort%); game:Load('%GameLoadPath%\\content\\Maps\\%ServerPlaceId%.rbxl');"
 GOTO::EOF

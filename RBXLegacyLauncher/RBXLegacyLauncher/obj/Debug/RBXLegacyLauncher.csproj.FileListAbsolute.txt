@@ -1,0 +1,15 @@
+C:\Users\BITL\Desktop\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\bin\Debug\RBXLegacyLauncher.exe
+C:\Users\BITL\Desktop\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\bin\Debug\RBXLegacyLauncher.pdb
+C:\Users\BITL\Desktop\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.csprojResolveAssemblyReference.cache
+C:\Users\BITL\Desktop\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.MainForm.resources
+C:\Users\BITL\Desktop\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.csproj.GenerateResource.Cache
+C:\Users\BITL\Desktop\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.exe
+C:\Users\BITL\Desktop\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.pdb
+C:\Users\BITL\Documents\GitHub\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\bin\Debug\RBXLegacyLauncher.exe.config
+C:\Users\BITL\Documents\GitHub\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\bin\Debug\RBXLegacyLauncher.exe
+C:\Users\BITL\Documents\GitHub\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\bin\Debug\RBXLegacyLauncher.pdb
+C:\Users\BITL\Documents\GitHub\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.csprojResolveAssemblyReference.cache
+C:\Users\BITL\Documents\GitHub\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.MainForm.resources
+C:\Users\BITL\Documents\GitHub\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.csproj.GenerateResource.Cache
+C:\Users\BITL\Documents\GitHub\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.exe
+C:\Users\BITL\Documents\GitHub\RBXLegacy\RBXLegacyLauncher\RBXLegacyLauncher\obj\Debug\RBXLegacyLauncher.pdb
