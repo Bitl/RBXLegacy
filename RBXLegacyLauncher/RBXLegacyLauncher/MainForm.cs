@@ -30,9 +30,6 @@ namespace RBXLegacyLauncher
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		void tabPage1_Enter(object sender, EventArgs e)
-		{
-		}
 		void tabPage2_Enter(object sender, EventArgs e)
 		{
 			string mapdir = GlobalVars.ClientDir + @"\\content\\Maps";
@@ -46,9 +43,11 @@ namespace RBXLegacyLauncher
 		}
 		void tabPage2_Leave(object sender, EventArgs e)
 		{
-			this.listBox1.Items.Clear();
+			if (this.tabControl1.SelectedTab != tabPage2)
+			{
+				this.listBox1.Items.Clear();
+			}
 		}
-		
 		void Button1Click(object sender, EventArgs e)
 		{
 			string luafile = GlobalVars.ClientDir + @"\\content\\Scripts\\CSMPFunctions.lua";
