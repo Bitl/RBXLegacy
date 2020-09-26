@@ -1,7 +1,6 @@
 ## RBXLegacy
-----------------------------------
+
 ## CREATOR'S NOTE
-----------------------------------
 
 NOTE: This is only the source code. Click the link below to download the latest version of the client.
 
